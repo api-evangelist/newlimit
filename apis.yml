@@ -1,4 +1,16 @@
 aid: newlimit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newlimit.png
 name: NewLimit
 description: 'NewLimit is a company surfaced as a portfolio company of kleiner-perkins and added to the
   API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
@@ -10,10 +22,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Longevity
+- Biotechnology
+- Epigenetics
+- Aging
+- Therapeutics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +40,15 @@ maintainers:
 common:
 - type: Website
   url: https://www.newlimit.com
+- type: GitHubOrganization
+  url: https://github.com/newlimit
+- type: Blog
+  url: https://blog.newlimit.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
+  note: 'No API/developer surface. Longevity biotech (epigenetic reprogramming). GitHub
+    org exists but holds only forked bioinformatics tools; blog on Substack. No OpenAPI,
+    SDKs, MCP, well-known, or webhook surface to derive artifacts from.'
